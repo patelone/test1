@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="layout.css">
+     <title>Layout</title>
+     </head>
+     <style>
+        header {
+    position: relative;
+}
+.shopping-mall{
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+.shopping-mall>h1{
+    font-family: Impact;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+.shopping-mall>h5{
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+.poly-cart{
+    margin-top: 5px;
+}
+
+.poly-cart ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-variant: small-caps;
+}
+
+.poly-cart .panel-heading strong {
+    font-variant: small-caps;
+    font-size: larger;
+    text-shadow: 0 0 2px darkgray;
+}
+.poly-prod{
+    text-align:center;
+    padding:5px;
+}
+
+.poly-prod .panel-body img{
+    height: 150px;
+    max-width: 95%;
+}
+     </style>
+ <body>
+ <div class="container" style = "height: auto">
+     <header class="row">
+        <div class = "shopping-mall">
+            <h1>FIT-HCMUE shop</h1>
+            <h5>Brig knowledge to everyone</h5>
+        </div>
+        <img class = "pull-right" src="https://engbreaking.com/wp-content/uploads/2020/11/tieng-anh-giao-tiep-co-ban-mua-sam-1.jpg"/>
+     </header>
+     <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span> Trang chủ</a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Giới thiệu<span class="sr-only">(current)</span></a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Liên hệ</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Góp ý</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Hỏi đáp</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Tài khoản <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Đăng nhập</a></li>
+                      <li><a href="#">Quên mật khẩu</a></li>
+                      <li><a href="#">Đăng kí thành viên</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Đăng xuất</a></li>
+                      <li><a href="#">Đổi mật khẩu</a></li>
+                      <li><a href="#">Cập nhật hồ sơ</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Đơn hàng</a></li>
+                      <li><a href="#">Giỏ hàng</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">Tiếng Việt</a></li>
+                  
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+     </nav>
+     <div class = "row">
+         <article class="col-sm-9">
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            IPhone 10
+                        </h4>
+                    </div>
+                    <div class = "panel-body">
+                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/406819006_1048996422969695_279776023686894056_n.jpg?stp=dst-jpg_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=510075&_nc_eui2=AeHqpit1-CzhgSURLFQw0F1xqZpiVgxxFumpmmJWDHEW6RIdBPgvBRw8NZrnz897_AuSDHnHu_A70sB-TUGISx-Y&_nc_ohc=Qkaa7q_Er6gAX9cYpDd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTpJFNnw5jtvlhYzY20j9e_jvC3zmiRJOKOXJWkgCwf1Q&oe=659E43D1" height="230" width="300"/></div>
+                    <div class = "panel-footer">
+                            $ 100
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            IPhone pro X
+                        </h4>
+                    </div>
+                    <div class = "panel-body">
+                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/406819006_1048996422969695_279776023686894056_n.jpg?stp=dst-jpg_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=510075&_nc_eui2=AeHqpit1-CzhgSURLFQw0F1xqZpiVgxxFumpmmJWDHEW6RIdBPgvBRw8NZrnz897_AuSDHnHu_A70sB-TUGISx-Y&_nc_ohc=Qkaa7q_Er6gAX9cYpDd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTpJFNnw5jtvlhYzY20j9e_jvC3zmiRJOKOXJWkgCwf1Q&oe=659E43D1" height="228" width="292"/></div>
+                    <div class = "panel-footer">
+                            $ 100
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            IPhone 14
+                        </h4>
+                    </div>
+                    <div class = "panel-body">
+                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/387455332_1491169531670058_235796521966579435_n.png?stp=dst-png_s206x206&_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_eui2=AeHn_D03dZqtM-gB2JsnUFEWIB-lEjEXjREgH6USMReNEah4moatHKXkKCjqpCn3E_O-JbdhtPW3tLTPfJfpaIL9&_nc_ohc=v3xGMo_mMasAX8lj_fx&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS8Bc1BhXnSuix3nLuNL6YpkGuFB9cT5MC8OrdSCO_Gwg&oe=659E4235" height="230" width="300"/></div>
+                    <div class = "panel-footer">
+                            $ 199
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            IPhone 13
+                        </h4>
+                    </div>
+                    <div class = "panel-body">
+                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/406819006_1048996422969695_279776023686894056_n.jpg?stp=dst-jpg_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=510075&_nc_eui2=AeHqpit1-CzhgSURLFQw0F1xqZpiVgxxFumpmmJWDHEW6RIdBPgvBRw8NZrnz897_AuSDHnHu_A70sB-TUGISx-Y&_nc_ohc=Qkaa7q_Er6gAX9cYpDd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTpJFNnw5jtvlhYzY20j9e_jvC3zmiRJOKOXJWkgCwf1Q&oe=659E43D1" height="230" width="300"/></div>
+                    <div class = "panel-footer">
+                            $ 75
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            IPhone 14
+                        </h4>
+                    </div>
+                    <div class = "panel-body">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtf9ulN0-C3Jho3IjEbtY46rW3KQdWDDAQnQ&usqp=CAU" height="228" width="292"/></div>
+                    <div class = "panel-footer">
+                            $ 100
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            IPhone 15
+                        </h4>
+                    </div>
+                    <div class = "panel-body">
+                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/385533901_1489035784973704_7214721343547824785_n.jpg?stp=dst-jpg_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_eui2=AeFhTRg7DmxFMLF-Sag_pUzYQVe8pEcN38FBV7ykRw3fwXm2cmvzlhrvSoftIgh2cBDALnbWF6BLuUnCstxKgvEi&_nc_ohc=c96yQIBPJIsAX9Mxgv8&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT6GmeeK4DecOkiyDr_McUo5MNTGtR-Fc4H0AcWnrPg4Q&oe=659E4D1E" height="230" width="300"/></div>
+
+                    <div class = "panel-footer">
+                            $ 200
+                    </div>
+                </div>
+            </div>
+         </article>
+         <aside class="col-sm-3">
+             <div class = "poly-cart">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img class="col-sm-5" src="data:image/jpeg;base64,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"/>
+                        <ul class="col-sm-7">
+                            <li>9 items</li>
+                            <li>2000$</li>
+                            <li><a href="#">Xem giỏ hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form>
+                        <input placeholder="Keywords" class="form-control"/>
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class = "glyphicon glyphicon-th-list"></span>
+                    <strong>chủng loại
+                    </strong>
+                </div>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Điện thoại di động</a>
+                    <a href="#" class="list-group-item">Máy tính xách tay</a>
+                    <a href="#" class="list-group-item">Máy tính để bàn</a>
+                    <a href="#" class="list-group-item">Quạt máy</a>
+                    <a href="#" class="list-group-item">Tivi</a>
+                    <a href="#" class="list-group-item">Tủ lạnh</a>
+                </div>
+            </div>
+         </aside>
+     </div>
+ </div>
+ </body>
+ </html>
